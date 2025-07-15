@@ -39,7 +39,6 @@
 - **Output**: Google Sheet (`Niche Outliers Data` tab)
   - Columns include: `Channel`, `Title`, `URL`, `Views`, `Power Words`, `Thumbnail Analysis`, etc.
 
----
 
 ## 📅 Automated Phases
 
@@ -60,7 +59,6 @@
   - Scrapes top 5 videos in the niche (by views).
   - Stores daily snapshot in `Niche Daily` tab with date.
 
----
 
 ## 💬 Audience Comment Analysis
 
@@ -72,7 +70,6 @@
     - What they request next ❓
 - **Output**: Google Sheet `Comment Analysis`
 
----
 
 ## 💡 Ideation Agent
 
@@ -84,7 +81,6 @@
   - Stored in `Ideation` tab.
   - Email sent via Gmail node when ideation is complete.
 
----
 
 ## 📁 Sheet References
 
@@ -96,7 +92,6 @@
 | `Comment Analysis`      | Summary of YouTube audience comments         |
 | `Ideation`              | AI-generated titles + thumbnails             |
 
----
 
 ## 🔐 Credentials Used
 
@@ -105,7 +100,6 @@
 - **Apify API** (YouTube scraping)
 - **Gmail API** (Notification delivery)
 
----
 
 ## ⚙️ Requirements
 
@@ -115,7 +109,6 @@
   - OpenAI key with access to GPT-4 or GPT-4o
   - Google/Gmail OAuth2 credentials
 
----
 
 ## Example Use Cases
 - Content marketing teams validating YouTube trends.
