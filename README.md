@@ -117,17 +117,6 @@
 
 ---
 
-## 🔄 Automation Logic Summary
-
-```mermaid
-graph TD
-A[Form Input (3 Channels)] --> B[Scrape Top Videos]
-B --> C[Extract Power Words]
-C --> D[Analyze Thumbnails]
-D --> E[Merge & Save to Google Sheets]
-E --> F[Loop to Next Channel]
-G[Schedule Trigger (Weekly/3-Day)] --> B
-
 ## Example Use Cases
 - Content marketing teams validating YouTube trends.
 - Agencies optimizing thumbnails and titles.
